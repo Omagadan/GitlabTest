@@ -14,7 +14,6 @@ function generarCadenasAleatorias(cantidad, longitud) {
   for (let i = 0; i < cantidad; i++) {
     cadenas.push(generarCadenaAleatoria(longitud));
   }
-  return cadenas;
 }
 
 const cantidadCadenas = 20;
