@@ -30,3 +30,5 @@ const cadenasAleatoriasSecond = generarCadenasAleatorias(
 
 console.log(cadenasAleatoriasFirst);
 console.log(cadenasAleatoriasSecond);
+
+module.exports = { generarCadenaAleatoria, generarCadenasAleatorias };
