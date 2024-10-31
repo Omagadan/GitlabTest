@@ -14,21 +14,21 @@ function generarCadenasAleatorias(cantidad, longitud) {
   for (let i = 0; i < cantidad; i++) {
     cadenas.push(generarCadenaAleatoria(longitud));
   }
+
   return cadenas;
+
 }
 
 const cantidadCadenas = 20;
 const longitudCadena = 10;
-const cadenasAleatoriasFirst = generarCadenasAleatorias(
-  cantidadCadenas,
-  longitudCadena
-);
-const cadenasAleatoriasSecond = generarCadenasAleatorias(
-  cantidadCadenas,
-  longitudCadena
-);
 
-console.log(cadenasAleatoriasFirst);
-console.log(cadenasAleatoriasSecond);
+const cadenasAleatorias0 = generarCadenasAleatorias(
+  cantidadCadenas,
+  longitudCadena
+);
+const cadenasAleatorias1 = generarCadenasAleatorias(
+
+console.log(cadenasAleatorias0);
+console.log(cadenasAleatorias1);
 
 module.exports = { generarCadenaAleatoria, generarCadenasAleatorias };
