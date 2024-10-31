@@ -4,8 +4,11 @@
   "description": "Una breve descripción de tu proyecto, incluyendo su propósito y lo que lo hace único.",
   "main": "funcion.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
